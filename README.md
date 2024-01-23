@@ -15,10 +15,10 @@ temperature converter:
   -  desired conversion unit ('c' = celcius, 'k' = kelvins, 'f' = farenheit)
 
 - Expected output: 
-depending on the users choice of calculation: 
-- if ('c'): this will output the minimum amount of currency needed to complete the transaction. 
-- if ('t'): this will output the user's temperature converted to the scale of their choice. 
-- if ('s'): the program will end. 
+  depending on the users choice of calculation: 
+- - if ('c'): this will output the minimum amount of currency needed to complete the transaction. 
+- - if ('t'): this will output the user's temperature converted to the scale of their choice. 
+- - if ('s'): the program will end. 
 
 - Types of execution: 
 - Repeated execution: this program utilizes for and while loops in order to re-execute the program based on user input.
