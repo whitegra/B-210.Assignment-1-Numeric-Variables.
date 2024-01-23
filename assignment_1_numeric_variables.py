@@ -45,7 +45,7 @@ while True:
         dollar_cost %= 1
         print(one_dollar_bills, "one dollar bill(s)")
 
-        # Calculate the remaining change in cents
+        # Calculate the remaining change in cents (*100 so that its easier to calculate whole number value)
         cent_cost = float(dollar_cost * 100)
 
         #quarters
