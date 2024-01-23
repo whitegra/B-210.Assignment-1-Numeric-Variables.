@@ -67,7 +67,7 @@ while True:
 
         # this is the condition for the while loop, so that the user can continue the calculations without exiting
         money_again = input("Would you like to perform another calculation? ('y' or 'n') \n")
-        if money_again != 'y':
+        if money_again == 'y':
             break
 
     #chice #t is for the temperature converter
@@ -108,7 +108,7 @@ while True:
 
         #this is another while loop condition so that the user can continue with the temperature calculations without exiting
         temp_again = input("Would you like to make another calculation? ('y' or 'n')\n")
-        if temp_again != 'y':
+        if temp_again == 'y':
             break
 
     #if the user enters 's' this will exit the program entirely
